@@ -108,7 +108,7 @@ export default function AboutSection() {
   const countdown = useCountdown(COUNTDOWN_TARGET);
 
   return (
-    <section id="about" data-dark-section className="relative pt-20 lg:pt-28 pb-0 overflow-hidden">
+    <section id="about" data-dark-section className="relative pt-10 pb-24 lg:pt-12 lg:pb-32 overflow-hidden">
       {/* Gradient fade from hero blue into black */}
       <div
         className="absolute inset-0"
@@ -127,7 +127,7 @@ export default function AboutSection() {
         opacity={0.8}
       />
 
-      <div className="relative mx-auto max-w-[1400px] px-6 lg:px-10 pt-18">
+      <div className="relative mx-auto max-w-[1400px] px-6 lg:px-10 pt-28">
         {/* Heading + description */}
         <motion.div
           ref={ref}
@@ -182,34 +182,34 @@ export default function AboutSection() {
           {/* Date - left */}
           <div className="text-white">
             <p className="text-sm font-medium uppercase tracking-widest text-white/70">Date</p>
-            <p className="mt-1 text-xl sm:text-2xl font-bold uppercase tracking-wide">Oct 28–30, 2026</p>
+            <p className="mt-1 text-3xl sm:text-4xl font-bold uppercase tracking-wide font-space-grotesk">Oct 28–30, 2026</p>
           </div>
 
           {/* Countdown - center */}
           <div className="flex items-center gap-4 sm:gap-8 lg:gap-10">
             <div className="text-center">
-              <p className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold tabular-nums text-white">
+              <p className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold tabular-nums text-white font-space-grotesk">
                 {String(countdown.days).padStart(2, "0")}
               </p>
               <p className="mt-1 text-sm sm:text-base font-medium uppercase tracking-widest text-white/70">Days</p>
             </div>
             <span className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white/60">:</span>
             <div className="text-center">
-              <p className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold tabular-nums text-white">
+              <p className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold tabular-nums text-white font-space-grotesk">
                 {String(countdown.hours).padStart(2, "0")}
               </p>
               <p className="mt-1 text-sm sm:text-base font-medium uppercase tracking-widest text-white/70">Hours</p>
             </div>
             <span className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white/60">:</span>
             <div className="text-center">
-              <p className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold tabular-nums text-white">
+              <p className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold tabular-nums text-white font-space-grotesk">
                 {String(countdown.minutes).padStart(2, "0")}
               </p>
               <p className="mt-1 text-sm sm:text-base font-medium uppercase tracking-widest text-white/70">Minutes</p>
             </div>
             <span className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white/60">:</span>
             <div className="text-center">
-              <p className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold tabular-nums text-white">
+              <p className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold tabular-nums text-white font-space-grotesk">
                 {String(countdown.seconds).padStart(2, "0")}
               </p>
               <p className="mt-1 text-sm sm:text-base font-medium uppercase tracking-widest text-white/70">Seconds</p>
@@ -219,7 +219,7 @@ export default function AboutSection() {
           {/* Venue - right */}
           <div id="venue" className="text-white text-right lg:text-right">
             <p className="text-sm font-medium uppercase tracking-widest text-white/70">Venue</p>
-            <p className="mt-1 text-xl sm:text-2xl font-bold uppercase tracking-wide">Austin, TX</p>
+            <p className="mt-1 text-3xl sm:text-4xl font-bold uppercase tracking-wide font-space-grotesk">Austin, TX</p>
           </div>
         </motion.div>
       </div>
