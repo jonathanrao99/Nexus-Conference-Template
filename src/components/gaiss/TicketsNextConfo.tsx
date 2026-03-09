@@ -61,7 +61,7 @@ export default function TicketsNextConfo() {
         >
           Grab your
           <br />
-          <span className="inline-block pl-16">ticket now</span>
+          <span className="inline-block pl-20">ticket now</span>
         </motion.h2>
 
         {/* Cards — equal size, same layout */}

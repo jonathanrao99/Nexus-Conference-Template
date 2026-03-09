@@ -108,7 +108,7 @@ export default function MeetOurPartners() {
           <h2 className="font-space-grotesk font-bold text-[2.5rem] sm:text-[3.5rem] lg:text-[4rem] text-[#0f172a] leading-[1.05] tracking-tight uppercase">
             Meet Our
             <br />
-            <span className="inline-block pl-16">partners</span>
+            <span className="inline-block pl-12">partners</span>
           </h2>
           <Link
             href="/#sponsors"

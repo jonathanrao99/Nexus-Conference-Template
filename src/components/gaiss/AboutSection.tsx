@@ -139,7 +139,7 @@ export default function AboutSection() {
           <h2 className="font-space-grotesk font-bold text-[2.5rem] sm:text-[3.5rem] lg:text-[4.5rem] xl:text-[5rem] text-white leading-[1.05] tracking-tight uppercase shrink-0 lg:max-w-[45%]">
             Where
             <br />
-            <span className="inline-block pl-16">innovation</span>
+            <span className="inline-block pl-8">innovation</span>
             <br />
             meets action
           </h2>

@@ -35,7 +35,7 @@ export default function ReadyToJoinCTA() {
           <h2 className="font-space-grotesk font-bold text-[2.25rem] sm:text-[3rem] lg:text-[3.5rem] xl:text-[4rem] text-white leading-[1.05] tracking-tight uppercase shrink-0 lg:max-w-[45%]">
             Ready to join
             <br />
-            <span className="inline-block pl-16">the future</span>
+            <span className="inline-block pl-8">the future</span>
             <br />of <span>tech?</span>
           </h2>
 

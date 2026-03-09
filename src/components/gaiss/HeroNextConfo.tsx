@@ -18,7 +18,7 @@ export default function HeroNextConfo() {
         <motion.div className="absolute inset-0" style={{ y: imgY }}>
           <Image
             src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1920&q=80"
-            alt=""
+            alt="GAISS Summit — conference attendees at a tech summit on generative AI for secure systems"
             fill
             className="object-cover scale-110 grayscale brightness-[0.45] contrast-110"
             priority

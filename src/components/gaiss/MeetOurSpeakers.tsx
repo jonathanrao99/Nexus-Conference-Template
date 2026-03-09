@@ -41,7 +41,7 @@ export default function MeetOurSpeakers() {
           <h2 className="font-space-grotesk font-bold text-[2.5rem] sm:text-[3.5rem] lg:text-[4.5rem] xl:text-[5rem] text-[#0f172a] leading-[1.05] tracking-tight uppercase shrink-0 lg:max-w-[50%]">
             Meet our
             <br />
-            <span className="inline-block pl-16">speakers</span>
+            <span className="inline-block pl-12">speakers</span>
           </h2>
 
           <div className="lg:mt-6 max-w-md">

@@ -12,11 +12,11 @@ const items = [
   {
     num: "02",
     title: "Hands-On Workshops",
-    body: "Hear from global leaders pushing the boundaries of tech.",
+    body: "Build skills with practical sessions led by industry experts.",
   },
   {
     num: "03",
-    title: "Networking offer",
+    title: "Networking Opportunities",
     body: "Connect with founders, developers, investors, and tech talent.",
   },
   {
@@ -42,7 +42,7 @@ export default function WhatToExpect() {
         >
           Why attend
           <br />
-          <span className="inline-block pl-16">GAISS 2026</span>
+          <span className="inline-block pl-0">GAISS 2026</span>
         </motion.h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
