@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Speakers | Nexus Summit 2027",
-  description: "Meet keynote speakers and session leaders at Nexus Summit 2027.",
+  title: "Speakers | ForumX Summit 2027",
+  description: "Meet keynote speakers and session leaders at ForumX Summit 2027.",
 };
 
 export default function SpeakersPage() {

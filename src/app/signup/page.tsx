@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Sign Up | Nexus Summit 2027",
+  title: "Sign Up | ForumX Summit 2027",
   description: "Create an account.",
 };
 

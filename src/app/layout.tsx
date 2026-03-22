@@ -26,9 +26,9 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Nexus Summit 2027 — Professional Conference Template",
+  title: "ForumX Summit 2027 — Conference Website Template",
   description:
-    "Nexus Summit 2027. June 12–14, 2027 · San Francisco, CA. A modern, reusable conference website template—customize branding, dates, and content for your event.",
+    "ForumX Summit 2027. June 12–14, 2027 · San Francisco, CA. A modern conference template—swap branding, dates, and content for your event.",
 };
 
 export default function RootLayout({

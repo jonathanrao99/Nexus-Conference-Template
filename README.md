@@ -1,44 +1,38 @@
-# Nexus Summit
+# ForumX
 
-A polished **conference / summit** site built with **Next.js 16**, **React 19**, **Tailwind CSS 4**, and **Framer Motion**. It’s designed as a template you can fork: swap the name, dates, venue, and imagery, and you’re ready to promote your event.
+A **conference / summit** landing site built with **Next.js 16**, **React 19**, **Tailwind CSS 4**, and **Framer Motion**. Fork it, rename things, drop in your dates and assets, and you’re ready to promote your event.
 
----
-
-## What you get
-
-- **Hero** with parallax image, gradient into brand blue, and clear CTAs  
-- **About** with countdown, venue, and scroll-based image motion  
-- **Speakers**, **Why attend**, **sessions strip**, **featured schedule**  
-- **Tickets** (three tiers), **partners** marquees, **FAQ**, **CTA**, **image marquee**  
-- **Nav** with dropdowns + mobile menu; **footer** with links and contact  
-
-The demo below uses **Nexus Summit 2027** and placeholder copy—treat it as a starting point, not final branding.
-
----
-
-## Walkthrough
-
-Full scroll-through of the site (with audio if your file includes it):
-
-<video src="docs/readme-assets/nexus-summit-walkthrough.mov" width="100%" controls playsinline></video>
-
-[Open or download the video](./docs/readme-assets/nexus-summit-walkthrough.mov)
+The demo uses **ForumX Summit 2027** as placeholder branding—swap it everywhere for your own name.
 
 ---
 
 ## Screenshots
 
-| Hero & nav | Parallax + countdown |
-|:------------:|:---------------------:|
-| ![Hero](docs/readme-assets/nexus-hero.png) | ![Parallax and countdown](docs/readme-assets/nexus-parallax-countdown.png) |
+Five captures from the template (the last one highlights the same **dark, dotted** look used across the about block, CTA, and footer):
 
-| Speakers | Tickets |
-|:--------:|:-------:|
-| ![Speakers](docs/readme-assets/nexus-speakers.png) | ![Tickets](docs/readme-assets/nexus-tickets.png) |
+### 1. Hero & navigation
+
+![ForumX — hero and nav](docs/readme-assets/forumx-01-hero.png)
+
+### 2. About — imagery & countdown
+
+![ForumX — about section with parallax imagery and countdown](docs/readme-assets/forumx-02-about-countdown.png)
+
+### 3. Speakers
+
+![ForumX — meet our speakers](docs/readme-assets/forumx-03-speakers.png)
+
+### 4. Tickets & pricing
+
+![ForumX — ticket tiers](docs/readme-assets/forumx-04-tickets.png)
+
+### 5. Dark sections (shared look)
+
+![ForumX — dark UI sections (about / marquee / footer style)](docs/readme-assets/forumx-05-dark-sections.png)
 
 ---
 
-## Run it locally
+## Run locally
 
 ```bash
 npm install
@@ -48,41 +42,36 @@ npm run dev
 Open [http://localhost:3000](http://localhost:3000).
 
 ```bash
-npm run build   # production build
-npm run start   # run production server
+npm run build
+npm run start
 ```
 
 ---
 
-## Customize for your event
+## Customize
 
-| What to change | Where to look |
-|----------------|---------------|
+| What | Where |
+|------|--------|
 | Site title & SEO | `src/app/layout.tsx` |
-| Hero headline, dates, city | `src/components/nexus/HeroNextConfo.tsx` |
-| About copy & countdown target | `src/components/nexus/AboutSection.tsx` |
-| Speakers / sessions / tickets / FAQ | Matching files under `src/components/nexus/` |
-| Partner logos | `public/partners/` + `MeetOurPartners.tsx` |
-| Remote images | Allowed hosts in `next.config.ts` (`images.unsplash.com`, …) |
+| Hero (headline, dates, city) | `src/components/forumx/HeroNextConfo.tsx` |
+| About & countdown | `src/components/forumx/AboutSection.tsx` |
+| Other sections | Files under `src/components/forumx/` |
+| Sponsor logos | `public/partners/` |
 
-Search the repo for `Nexus`, `nexusconf.example.com`, and `2027` to catch straggler copy.
+Search for **`ForumX`**, **`forumx.example.com`**, and **`2027`** to catch leftover placeholder copy.
 
 ---
 
-## Tech stack
+## Stack
 
 - [Next.js](https://nextjs.org/) (App Router)  
 - [Tailwind CSS](https://tailwindcss.com/) v4  
 - [Framer Motion](https://www.framer.com/motion/)  
 
-Deploy anywhere Node runs; **[Vercel](https://vercel.com)** is the path of least resistance for Next.js.
+Deploy easily on [Vercel](https://vercel.com) or any Node host.
 
 ---
 
 ## License
 
-Use this template freely for your own conferences and meetups. A credit in the footer is appreciated but not required.
-
----
-
-*Built as a template—make it yours.*
+Use freely for your events. Credit in the footer is appreciated, not required.

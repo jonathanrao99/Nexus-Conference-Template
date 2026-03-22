@@ -1,11 +1,13 @@
-# README media
+# README screenshots
 
-Files referenced from the root [`README.md`](../../README.md):
+PNG previews referenced from the root [`README.md`](../../README.md).
 
 | File | Description |
 |------|-------------|
-| `nexus-summit-walkthrough.mov` | Full-page screen recording |
-| `nexus-hero.png` | Hero + navigation |
-| `nexus-parallax-countdown.png` | About parallax images + countdown |
-| `nexus-speakers.png` | Meet our speakers |
-| `nexus-tickets.png` | Ticket pricing |
+| `forumx-01-hero.png` | Hero + navigation |
+| `forumx-02-about-countdown.png` | About block, parallax images, countdown |
+| `forumx-03-speakers.png` | Speakers grid |
+| `forumx-04-tickets.png` | Ticket / pricing cards |
+| `forumx-05-dark-sections.png` | Dark “dotted” section style (duplicate frame of #2 for README) |
+
+Replace these files if you refresh the marketing screenshots.

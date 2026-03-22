@@ -1,14 +1,14 @@
-import HeroNextConfo from "@/components/nexus/HeroNextConfo";
-import AboutSection from "@/components/nexus/AboutSection";
-import MeetOurSpeakers from "@/components/nexus/MeetOurSpeakers";
-import WhatToExpect from "@/components/nexus/WhatToExpect";
-import ConferenceSessionsImage from "@/components/nexus/ConferenceSessionsImage";
-import FeaturedSessions from "@/components/nexus/FeaturedSessions";
-import TicketsNextConfo from "@/components/nexus/TicketsNextConfo";
-import MeetOurPartners from "@/components/nexus/MeetOurPartners";
-import FAQNextConfo from "@/components/nexus/FAQNextConfo";
-import ReadyToJoinCTA from "@/components/nexus/ReadyToJoinCTA";
-import ImagesMarquee from "@/components/nexus/ImagesMarquee";
+import HeroNextConfo from "@/components/forumx/HeroNextConfo";
+import AboutSection from "@/components/forumx/AboutSection";
+import MeetOurSpeakers from "@/components/forumx/MeetOurSpeakers";
+import WhatToExpect from "@/components/forumx/WhatToExpect";
+import ConferenceSessionsImage from "@/components/forumx/ConferenceSessionsImage";
+import FeaturedSessions from "@/components/forumx/FeaturedSessions";
+import TicketsNextConfo from "@/components/forumx/TicketsNextConfo";
+import MeetOurPartners from "@/components/forumx/MeetOurPartners";
+import FAQNextConfo from "@/components/forumx/FAQNextConfo";
+import ReadyToJoinCTA from "@/components/forumx/ReadyToJoinCTA";
+import ImagesMarquee from "@/components/forumx/ImagesMarquee";
 
 export default function Home() {
   return (

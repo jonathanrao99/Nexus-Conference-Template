@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog | Nexus Summit 2027",
-  description: "News and updates from Nexus Summit.",
+  title: "Blog | ForumX Summit 2027",
+  description: "News and updates from ForumX Summit.",
 };
 
 export default function BlogPage() {
