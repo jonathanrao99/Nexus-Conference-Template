@@ -10,19 +10,13 @@ The demo uses **ForumX Summit 2027** as placeholder branding—swap it everywher
 
 ## Screenshots
 
-Five captures from the template (the last one highlights the same **dark, dotted** look used across the about block, CTA, and footer):
-
-### 1. Hero & navigation
-
 ![ForumX — hero and nav](docs/readme-assets/forumx-01-hero.png)
 
-### 2. About — imagery & countdown
 
 ![ForumX — about section with parallax imagery and countdown](docs/readme-assets/forumx-02-about-countdown.png)
 
-### 3. Speakers
 
-![ForumX — meet our speakers](docs/readme-assets/forumx-03-speakers.png)
+(docs/readme-assets/forumx-03-speakers.png)
 
 ### 4. Tickets & pricing
 
