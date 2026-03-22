@@ -9,10 +9,12 @@ import MeetOurPartners from "@/components/forumx/MeetOurPartners";
 import FAQNextConfo from "@/components/forumx/FAQNextConfo";
 import ReadyToJoinCTA from "@/components/forumx/ReadyToJoinCTA";
 import ImagesMarquee from "@/components/forumx/ImagesMarquee";
+import { EventJsonLd } from "@/components/seo/EventJsonLd";
 
 export default function Home() {
   return (
     <>
+      <EventJsonLd />
       <HeroNextConfo />
       <AboutSection />
       <MeetOurSpeakers />

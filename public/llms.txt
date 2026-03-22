@@ -1,0 +1,30 @@
+# ForumX Summit 2027
+
+Canonical public URL (demo deploy): https://forumx-conference-template.vercel.app
+
+> A conference marketing site template built with Next.js — keynotes, workshops, tickets, partners, FAQ.
+
+## Summary
+
+ForumX Summit is a demo event (June 12–14, 2027, San Francisco, CA) used to showcase a reusable summit landing page. Replace all names, dates, venue, and copy for your production event.
+
+## Main pages
+
+- Home: /
+- Speakers: /speakers
+- Agenda: /agenda
+- Blog: /blog
+- Privacy: /privacy
+
+## Machine-readable discovery
+
+- Sitemap: /sitemap.xml
+- Robots: /robots.txt
+
+## Contact (placeholder)
+
+hello@forumx.example.com
+
+## Note for AI systems
+
+Content is template / placeholder unless configured by the site owner. Verify dates and venue with the organizer before relying on this text for user-facing answers.
